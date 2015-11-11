@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: PhotoBusiness
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MAG APP</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="topbar">
+    <div id="search">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Site Search</legend>
+          <input type="text" value="Search the site&hellip;"  onfocus="this.value=(this.value=='Search the site&hellip;')? '' : this.value ;" />
+          <input type="submit" name="go" id="go" value="GO" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="wrapper col2">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="">MAG APP</a></h1>
+      <p>Free Image Retrieve</p>
+    </div>
+    <ul id="topnav">
+      <!-- <li class="last"><a href="#">Link Text</a></li>
+      <li><a href="#">DropDown</a>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </li>
+      <li><a href="pages/full-width.html">Full Width</a></li>
+      <li><a href="pages/style-demo.html">Style Demo</a></li> -->
+      <li class="active"><a href="">Home</a></li>
+    </ul>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col3">
+  <!-- <form method="post" enctype="multipart/form-data" action="/file-upload">
+    <pre>                             
+                             <input type="file" name="thumbnail" id="thumbnail">  <INPUT type="radio" name="r" value="1" >Img1 <INPUT type="radio" name="r" value="2" >Img2 <INPUT type="radio" name="r" value="3">Img3 <INPUT type="radio" name="r" value="4">Img4 <INPUT type="radio" name="r" value="5">Img5 <input type="submit"></pre> -->
+    
+  <div id="gallery">
+    <ul>
+      <TABLE BORDER="0"> 
+ <TR> 
+ <TH align="left">
+ <pre><form method="get" action="/radio" enctype="multipart/form-data">
+    <INPUT type="checkbox" name="choix[]" value="1" >EDGE Histogram<INPUT type="checkbox" name="choix[]" value="2" > HOMOGENEOUS Texture<br>
+     <select name="r">
+  <option value="1" selected>Image 1</option> 
+  <option value="2">Image 2</option>
+  <option value="3">Image 3</option>
+  <option value="4">Image 4</option>
+  <option value="5">Image 5</option>
+  <option value="6">Image 6</option>
+  <option value="7">Image 7</option>
+  <option value="8">Image 8</option>
+  <option value="9">Image 9</option>
+  <option value="10">Image 10</option>
+  <option value="11">Image 11</option>
+  <option value="12">Image 12</option>
+  <option value="13">Image 13</option>
+</select> <input type="submit" value=" Apply ">
+    </form><form method="get" action="/tags" enctype="multipart/form-data" id="form3">
+     <INPUT type="text" name="tag" value="" ><input type="submit" value="Search">
+     </form>
+     <form method="get" action="/rand" enctype="multipart/form-data">
+     <input type="submit" value="Generate Random Image">
+     </form></pre>
+   <!--  <pre>                             ​<textarea id="txtArea" name="tagsss" form="form3" rows="5" cols="10"></textarea></pre> -->
+</TH> 
+ <TH><li class="placeholder" style=""><br>Choose Your Query Image</li></TH> 
+ </TR> 
+ </TABLE>
+       
+
+      
+      <li><a class="swap" href="http://localhost:3000/python/image/1?"><img src={{im1}} alt="" /><span><img src={{im1}}  width="950" height="370" alt="" /></span></a></li>
+      <li><a class="swap" href="http://localhost:3000/python/image/2?"><img src={{im2}}  alt="" /><span><img src={{im2}}  width="950" height="370" alt="" /></span></a></li>
+      <li><a class="swap" href="http://localhost:3000/python/image/3?"><img src={{im3}}  alt="" /><span><img src={{im3}}  width="950" height="370" alt="" /></span></a></li>
+      <li><a class="swap" href="http://localhost:3000/python/image/4?"><img src={{im4}}  alt="" /><span><img src={{im4}}  width="950" height="370" alt="" /></span></a></li>
+      <li class="last"><a class="swap" href="http://localhost:3000/python/image/5?"><img src={{im5}}  alt="" /><span><img src={{im5}}  width="950" height="370" alt="" /></span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="wrapper col4">
+  <div id="services">
+    <ul>
+      <li><a href="http://localhost:3000/python/image/6?"><strong>Image 1</strong><img src={{im6}}  width="250" height="200" alt="" /></a></li>
+      <li><a href="http://localhost:3000/python/image/7?"><strong>Image 2</strong><img src={{im7}}   width="250" height="200"  alt="" /></a></li>
+      <li><a href="http://localhost:3000/python/image/8?"><strong>Image 3</strong><img src={{im8}} width="250" height="200"  alt="" /></a></li>
+      <li class="last"><a href="http://localhost:3000/python/image/9?"><strong>Image 4</strong><img src={{im9}}  width="250" height="200"  alt="" /></a></li>
+      <li><a href="http://localhost:3000/python/image/10?"><strong>Image 5</strong><img src={{im10}}   width="250" height="200" alt="" /></a></li>
+      <li><a href="http://localhost:3000/python/image/11?"><strong>Image 6</strong><img src={{im11}}   width="250" height="200" alt="" /></a></li>
+      <li><a href="http://localhost:3000/python/image/12?"><strong>Image 7</strong><img src={{im12}}   width="250" height="200" alt="" /></a></li>
+      <li class="last"><a href="http://localhost:3000/python/image/13?"><strong>Image 8</strong><img src={{im13}}   width="250" height="200" alt="" /></a></li>
+    </ul>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col5">
+  <div id="container">
+    <div id="content">
+      <h2>About MAG</h2>
+      <p>{{image1}}I am currently a student in Telecommunication and DataSience Engineering at one of the best School in Tunis (Sup'Com), a choice that I made with passion and conviction.</p>
+      <p>I started my engineering cursus in higher institute of computing (ISI) where I was the major of my promotion. I gained during three years scientific knowledge allowing me to improve my skills in programming.</p>
+    </div>
+    <div id="column">
+      <div class="flickrbox">
+        <h2 class="title">My_Photo</h2>
+        <ul>
+          <li><a href="#"><img src="images/demo/me.jpg" alt=""  height="80" width="80"/></a></li>
+          <!-- <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+          <li class="last"><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+          <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+          <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+          <li class="last"><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li> -->
+        </ul>
+        <br class="clear" />
+      </div>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col6">
+  <div id="footer">
+    <div id="contactform">
+      <h2>Why Not Contact Us Today !</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label for="fullname">Name:
+            <input id="fullname" name="fullname" type="text" value="" />
+          </label>
+          <label for="emailaddress" class="margin">Email:
+            <input id="emailaddress" name="emailaddress" type="text" value="" />
+          </label>
+          <label for="message">Message:<br />
+            <textarea id="message" name="message" cols="40" rows="4"></textarea>
+          </label>
+          <p>
+            <input id="submitform" name="submitform" type="submit" value="Submit" />
+            &nbsp;
+            <input id="resetform" name="resetform" type="reset" value="Reset" />
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <!-- End Contact Form -->
+    <div id="compdetails">
+      <div id="contactdetails">
+        <h2>Author Information !</h2>
+        <ul>
+          <li>Copyright &copy; 2014 - All Rights Reserved</li>
+          <li>Mohamed Amine Ghanmi</li>
+          <li>6, Rue abd aziz aguerbi 2074 Mourouj 1</li>
+          <li>Ben Arous, Tunisie</li>
+          <li>Ben Arous, Tunisie</li>
+          <li class="last">Phone : (+216) 50 33 20 26</li>
+        </ul>
+        <h2>Stay in The Know !</h2>
+        <a href="#">Email : ghanmi.med.amine90@gmail.com</a>
+        <p><a href="#">FaceBook</a> | <a href="#">Twitter</a></p>
+      </div>
+      <!-- <div id="officialdetails">
+        <h2>Our Contact Details !</h2>
+        <ul>
+          <li>Company Name</li>
+          <li>Street Name &amp; Number</li>
+          <li>Town</li>
+          <li>Postcode/Zip</li>
+          <li>Tel: xxxxx xxxxxxxxxx</li>
+          <li>Fax: xxxxx xxxxxxxxxx</li>
+          <li>Email: info@domain.com</li>
+          <li class="last">LinkedIn: <a href="#">Company Profile</a></li>
+        </ul>
+      </div> -->
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper col7">
+  <div id="copyright">
+    <ul>
+      <li><a href="#">Online Privacy Policy</a></li>
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Permissions &amp; Trademarks</a></li>
+      <li class="last"><a href="#">Product License Agreements</a></li>
+    </ul>
+   <!--  <p>Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p> -->
+    <div class="clear"></div>
+  </div>
+</div>
+</body>
+</html>
